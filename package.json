@@ -1,5 +1,5 @@
 {
-    "name": "easybi",
+    "name": "coinwatch",
     "version": "1.0.1",
     "license": "MIT",
     "main": "index.js",
@@ -7,8 +7,8 @@
     "types": "index.d.ts",
     "scripts": {
         "dev": "ts-node src/index.ts",
-        "build-easybi": "npx prisma generate --schema src/lib/models/prisma/schemas/easybi_schema.prisma",
-        "build-db": "npx prisma migrate dev --name init --schema src/lib/models/prisma/schemas/easybi_schema.prisma"
+        "build-easybi": "npx prisma generate --schema src/lib/models/prisma/schemas/coinwatch_schema.prisma",
+        "build-db": "npx prisma migrate dev --name init --schema src/lib/models/prisma/schemas/coinwatch_schema.prisma"
     },
     "dependencies": {
         "@hapi/hapi": "20.2.1",
